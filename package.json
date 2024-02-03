@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "prettier": "3.2.4"
+  },
+  "dependencies": {
+    "node": "^21.6.1"
   }
 }
