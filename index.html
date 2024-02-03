@@ -31,52 +31,53 @@
           alt="Логотип проекта черный"
         />
       </a>
-      <address class="address">
+      <address class="contacts">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="header__address"
-          >наб. Принсенграхт 263-<br />
-          265, Амстердам</span
-        >
+        <p class="contacts__address">
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <div class="cover__title">
-            <h1 class="aligned-text">
-              <span class="accent-span">о</span>
-              <span class="accent-span letter-spacing-extended">но</span>
-            </h1>
-            <h1 class="aligned-text_center">
-              <span class="accent-span">те</span>
-              <span class="accent-span letter-spacing-extended">бе</span>
-            </h1>
-            <h1 class="aligned-text_right">
-              <span class="accent-span">н</span>
-              <span class="accent-span">адо</span>
-            </h1>
-          </div>
+        <div class="overlay"></div>
+        <div class="cover-padding">
+          <h1 class="cover__title">
+            <span class="aligned-text accent-span">
+              <span>о</span>
+              <span class="letter-spacing-extended">но</span>
+            </span>
+            <span class="aligned-text_center letter-spacing accent-span">
+              <span>те</span>
+              <span class="letter-spacing-extended">бе</span>
+            </span>
+            <span class="aligned-text_right accent-span">
+              <span class="letter-spacing-extended">н</span>
+              <span class="letter-spacing">ад</span>
+              <span>о</span>
+            </span>
+          </h1>
           <div class="cover__description">
-            <h1 class="cover__description-text">
+            <p class="cover__description-text">
               Аукцион вещей, в которые никто не верил
-            </h1>
-            <button class="bet-button">Сделать ставку</button>
+            </p>
+            <button type="button" class="bet-button">Сделать ставку</button>
           </div>
         </div>
       </section>
       <section class="lots" id="lots">
-        <div class="lots__heading">
-          <h1>лоты</h1>
-        </div>
+        <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
-                <div class="card__content overlay">
-                  <div class="card__title">
-                    <h4>Фильм режиссёра, который бросил киношколу</h4>
-                  </div>
+                <div class="overlay"></div>
+                <div class="card__content">
+                  <h3 class="card__title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
                   <div class="card__text">
                     <p>
                       Не просто бросил, а ушёл с первой лекции. Какой была бы
@@ -91,13 +92,12 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_book">
-                <div class="card__content overlay">
-                  <div class="card__title">
-                    <h4>
-                      Книга, где описан один скучный день из жизни рекламного
-                      агента
-                    </h4>
-                  </div>
+                <div class="overlay"></div>
+                <div class="card__content">
+                  <h3 class="card__title">
+                    Книга, где описан один скучный день из жизни рекламного
+                    агента
+                  </h3>
                   <div class="card__text">
                     <p>
                       Объёмом почти в тысячу страниц. Иногда без знаков
@@ -115,13 +115,12 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
-                <div class="card__content overlay">
-                  <div class="card__title">
-                    <h4>
-                      Картина, которую повторит даже 5-летний сын маминой
-                      подруги
-                    </h4>
-                  </div>
+                <div class="overlay"></div>
+                <div class="card__content">
+                  <h3 class="card__title">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+
                   <div class="card__text">
                     <p>
                       Ну действительно, там линия, тут кружочек, а здесь и вовсе
@@ -149,7 +148,7 @@
               alt="Логотип проекта белый"
             />
           </div>
-          <div class="about__title"><h3>об аукционе</h3></div>
+          <div class="about__title"><h2>об аукционе</h2></div>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -172,13 +171,13 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="address">
+      <address class="contacts">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="header__address"
-          >наб. Принсенграхт 263-<br />
-          265, Амстердам</span
-        >
+        <p class="contacts__address">
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -195,7 +194,7 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -204,7 +203,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="https://vk.com/">
+          <a href="https://vk.com/" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
@@ -213,7 +212,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="https://ru.pinterest.com/">
+          <a href="https://ru.pinterest.com/" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
