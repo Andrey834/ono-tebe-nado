@@ -10,7 +10,7 @@
 }
 
 .header__menu {
-  padding: 6px 0 0 21px;
+  padding: 4px 0 0 26px;
 }
 
 .header__links-list {
@@ -18,8 +18,6 @@
   flex-direction: row;
   gap: 28px;
   list-style: circle;
-  letter-spacing: 0.3px;
-  word-spacing: 0.9px;
 }
 
 .header__link {
@@ -58,7 +56,6 @@
 
 .cover {
   position: relative;
-  z-index: -2;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -71,8 +68,8 @@
 }
 
 .overlay {
+  z-index: 1;
   position: absolute;
-  z-index: -1;
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0 / 0.6);
@@ -91,6 +88,7 @@
 
 .accent-span {
   display: block;
+  z-index: 1;
 }
 
 .aligned-text {
@@ -132,6 +130,7 @@
 }
 
 .cover__description-text {
+  z-index: 2;
   display: inline-block;
   font-size: 22px;
   font-weight: 400;
@@ -141,6 +140,7 @@
 }
 
 .bet-button {
+  z-index: 2;
   display: inline-block;
   background-color: transparent;
   color: white;
@@ -165,11 +165,10 @@
 
 .lots__heading {
   text-transform: uppercase;
-  font-size: 39px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  padding-left: 39px;
-  letter-spacing: 1px;
+  padding-left: 40px;
 }
 
 .lots__card-list {
@@ -184,7 +183,7 @@
   display: flex;
   flex-grow: 1;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-link {
@@ -195,7 +194,6 @@
 
 .card {
   position: relative;
-  z-index: -1;
   width: 100%;
   height: 100%;
   color: white;
@@ -219,11 +217,11 @@
 .card__content {
   height: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 51px 40px 48px;
+  padding: 52px 40px 48px;
 }
 
 .card__title {
@@ -237,7 +235,6 @@
 .card__text {
   font-size: 20px;
   line-height: 24px;
-  overflow: hidden;
 }
 
 .lots__look-more-link {
@@ -281,11 +278,13 @@
 
 .about__title {
   white-space: nowrap;
-  font-size: 26px;
   text-transform: uppercase;
   align-self: center;
   padding-top: 9px;
-  letter-spacing: 0.6px;
+}
+
+.about__title h2 {
+  font-size: 40px;
 }
 
 .about__text {
